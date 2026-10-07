@@ -7,12 +7,18 @@ Package maintainers and users who have to manually update their installation
 may want to subscribe to `GitHub's tag feed
 <https://github.com/geier/khal/tags.atom>`_.
 
-0.14.2
+0.14.3
 ======
 unreleased
 * FIX ``khal new -i`` crashed and discarded the whole event (summary, etc.)
   when given an unparseable datetime range, it now reports the problem and
   asks again
+
+0.14.2
+======
+unreleased
+* FIX ``khal import --format``/``-f`` was accepted and then ignored, always
+  falling back to ``view.event_format``
 
 0.14.1
 ======
